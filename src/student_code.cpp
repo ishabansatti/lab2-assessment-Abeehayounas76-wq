@@ -20,7 +20,8 @@ char getCharValue() {
 }
 
 int convertFloatToInt(float value) {
-    // convert value to int.
+    // convert value to int. 
+    int reuslt =static_cast<int>(value);
     return value;
 }
 
