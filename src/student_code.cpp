@@ -1,3 +1,4 @@
+
 #include <iostream>
 using namespace std;
 
@@ -10,12 +11,12 @@ int getIntValue() {
 float getFloatValue() {
  float var_float = 10.75     // Declare a variable var_float of type float and set its value to 10.75.
     return var_float ;
-// meeee
+
 }
 
 char getCharValue() {
-    // Declare a variable var_char of type character and set its value to A.
-    //return var_char;
+    char var_char ='A' ;   // Declare a variable var_char of type character and set its value to A.
+    return var_char;
 }
 
 int convertFloatToInt(float value) {
@@ -30,6 +31,9 @@ Formula:
     Celsius = (Fahrenheit - 32) * 5 / 9
 */
 float fahrenheitToCelsius(float fahrenheit) {
+    float celsius;
+    celsiusn= (fahrenheit - 32) * 5/9;
+    return celsius;
     //return celsius;
 
 }
