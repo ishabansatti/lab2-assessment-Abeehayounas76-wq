@@ -9,7 +9,7 @@ int getIntValue() {
 }
 
 float getFloatValue() {
- float var_float = 10.75     // Declare a variable var_float of type float and set its value to 10.75.
+ float var_float = 10.75;     // Declare a variable var_float of type float and set its value to 10.75.
     return var_float ;
 
 }
@@ -21,7 +21,7 @@ char getCharValue() {
 
 int convertFloatToInt(float value) {
     // convert value to int. 
-    int reuslt =static_cast<int>(value);
+    
     return value;
 }
 
